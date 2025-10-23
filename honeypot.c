@@ -21,13 +21,8 @@ typedef struct {
 } ServiceConfig;
 
 ServiceConfig services[] = {
-    {21, "220 FTP Server ready\r\n", "FTP"},
     {22, "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.5\r\n", "SSH"},
-    {23, "Welcome to Telnet Service\r\nLogin: ", "TELNET"},
-    {25, "220 mail.example.com ESMTP Postfix\r\n", "SMTP"},
     {80, "HTTP/1.1 200 OK\r\nServer: Apache/2.4.41\r\n\r\n<html><body><h1>It works!</h1></body></html>", "HTTP"},
-    {110, "+OK POP3 server ready\r\n", "POP3"},
-    {143, "* OK IMAP4rev1 Service Ready\r\n", "IMAP"},
     {3306, "\x4a\x00\x00\x00\x0a" "5.7.33-0ubuntu0.18.04.1" "\x00", "MySQL"},
     {3389, "RDP", "RDP"},
     {5432, "PostgreSQL", "PostgreSQL"}
