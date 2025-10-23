@@ -24,7 +24,6 @@ ServiceConfig services[] = {
     {22, "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.5\r\n", "SSH"},
     {80, "HTTP/1.1 200 OK\r\nServer: Apache/2.4.41\r\n\r\n<html><body><h1>It works!</h1></body></html>", "HTTP"},
     {3306, "\x4a\x00\x00\x00\x0a" "5.7.33-0ubuntu0.18.04.1" "\x00", "MySQL"},
-    {3389, "RDP", "RDP"},
     {5432, "PostgreSQL", "PostgreSQL"}
 };
 
